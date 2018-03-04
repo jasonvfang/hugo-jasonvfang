@@ -49,17 +49,17 @@ theme = "hugo-icarus-theme"
 # and "Tags" / "Categories" after them.
 [[params.menu]]
     before = true
-    label  = "Home"
+    label  = "主页"
     link   = "/"
 
 [[params.menu]]
     before = false
-    label  = "Tags"
+    label  = "标签"
     link   = "tags/"
 
 [[params.menu]]
     before = false
-    label  = "Categories"
+    label  = "目录"
     link   = "categories/"
 
 # Enter a link for the follow button on the left
