@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on JASON FANG&#39;s BLOG</title>
+    <link>https://jasonvfang.github.io/post/</link>
+    <description>Recent content in Posts on JASON FANG&#39;s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Mar 2018 02:10:06 -0800</lastBuildDate>
+    
+	<atom:link href="https://jasonvfang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Second</title>
+      <link>https://jasonvfang.github.io/2018/03/04/my-second/</link>
+      <pubDate>Sun, 04 Mar 2018 02:10:06 -0800</pubDate>
+      
+      <guid>https://jasonvfang.github.io/2018/03/04/my-second/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First</title>
+      <link>https://jasonvfang.github.io/2018/03/04/my-first/</link>
+      <pubDate>Sun, 04 Mar 2018 01:51:23 -0800</pubDate>
+      
+      <guid>https://jasonvfang.github.io/2018/03/04/my-first/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
