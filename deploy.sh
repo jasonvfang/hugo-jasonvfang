@@ -5,8 +5,12 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
-rm -rf blog_update
-git clone https://github.com/jasonvfang/jasonvfang.github.io.git blog_update
+if [ -e blog_update ];then
+	echo "Update blog"
+else
+	rm -rf blog_update
+	git clone https://github.com/jasonvfang/jasonvfang.github.io.git blog_update
+fi
 
 # Go To Public folder
 cp public/* blog_update -rf
