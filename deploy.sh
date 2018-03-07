@@ -5,8 +5,14 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+rm -rf blog_update
+git clone https://github.com/jasonvfang/jasonvfang.github.io.git blog_update
+
 # Go To Public folder
-cd public
+cp public/* blog_update -rf
+
+cd blog_update
+
 # Add changes to git.
 git add -A
 
