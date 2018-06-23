@@ -13,12 +13,13 @@ title = "Libcurl中的HTTP重定向问题"
 
 最近一调试AMAZON的Prime Music音源接口，主要是HTTP POST/GET这种方法获取的JSON结果进行解析，工作内容相对比较简单，但是需要注意的地方比较多：
 
-####几个注意点
+#### 几个注意点
 * JSON的内存释放
 * HTTP请求RESP是否有重定向问题
 在处理这个HTTP返回时就有遇到过重定向的坑，导致浪费太多的时间
 
-#####CURL的HTTP选项
+##### CURL的HTTP选项
+
 基本参考CURL的SAMPLE CODE就可以完成：
 先上大致的code:
 ```
