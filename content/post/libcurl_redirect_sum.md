@@ -10,9 +10,6 @@ tags = ["libcurl"]
 title = "Libcurl中的HTTP重定向问题"
 +++
 
-#Libcurl中的HTTP重定向问题
-
-@[libcurl | http redirect]
 
 最近一调试AMAZON的Prime Music音源接口，主要是HTTP POST/GET这种方法获取的JSON结果进行解析，工作内容相对比较简单，但是需要注意的地方比较多：
 
