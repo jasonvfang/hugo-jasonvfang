@@ -1,6 +1,6 @@
 +++
 banner = ""
-categories = []
+categories = ["Hugo"]
 date = "2018-06-24T16:10:51+08:00"
 description = ""
 images = []

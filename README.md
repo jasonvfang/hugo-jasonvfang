@@ -1,1 +1,1 @@
-#Hugo static website source files
+Hugo static website source files
