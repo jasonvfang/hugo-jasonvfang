@@ -6,13 +6,16 @@ disable_comments = true
 +++
 
 Jobs: Software engineer 
+
 Mainly concentrate on Linux/Embed and IOT.
 
 Full stack.
 
-Languages: C/C++ mainly.
+Languages: C/C++ mainly, Love opensource and github.
 
 Location: ShangHai,China
+
+Contact: jasonvfang@gmail.com
 
 
 
