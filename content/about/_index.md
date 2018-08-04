@@ -5,13 +5,14 @@ menu = "main"
 disable_comments = true
 +++
 
-Jobs: Software engineer 
+Jobs: Senior Software Engineer 
 
 Mainly concentrate on Linux/Embed and IOT.
+But also great passion on researching other skills(Server end developing & Web etc).
 
-Full stack.
+Full stack developing.
 
-Languages: C/C++ mainly, Love opensource and github.
+Languages: C/C++ mainly, go/python/web etc. Love opensource and github.
 
 Location: ShangHai,China
 
