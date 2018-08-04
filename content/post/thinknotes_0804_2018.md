@@ -1,12 +1,12 @@
 +++
 banner = ""
 categories = ["Thinking Notes"]
-date = "2018-08-4T00:20:51+08:00"
+date = "2018-08-04T00:20:51+08:00"
 description = ""
 images = []
 menu = ""
 tags = ["thinking notes"]
-title = "Thinking notes - 20180804"
+title = "偶尔一笔总结-2018-08"
 +++
 
 
