@@ -6,3 +6,6 @@
  	path = public
  	url = https://github.com/jasonvfang/jasonvfang.github.io.git
  	branch = master
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
