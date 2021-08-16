@@ -5,7 +5,7 @@
 
 [submodule "theme"]
  	path = themes
- 	url = https://github.com/WingLim/hugo-tania.git
+ 	url = https://github.com/jasonvfang/hugo-tania.git
  	branch = master
 
 

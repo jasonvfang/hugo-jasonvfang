@@ -12,8 +12,7 @@ title = "网站配置总结"
 #### 如何使用VS Code编辑Markdown以及Preview
 
 打开VSCode，按快捷键CTRL+SHIFT+P，在弹出的窗口中输出Markdown，此时会出现Preview选项：
-
-![MarkDown Preview](/images/mkdown_preview.png)
+![MarkDown Preview](images/mkdown_preview.png)
 
 由此，后续blog文档的输出均采用VSCode编写。
 

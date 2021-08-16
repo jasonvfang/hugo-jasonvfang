@@ -35,15 +35,20 @@ paginate = 6
     medium = ""
     stack-overflow = "jasonvfang"
     steam = ""
-    telegram = "jasonvfang"
+    telegram = ""
     twitter = "jasonvfang"
     twitch = ""
     whatsapp = ""
   
   # Comments settigns
+  #[params.comments]
+  #  enabled = true
+  #  provider = "disqus"
+
+  # Comments settigns
   [params.comments]
     enabled = true
-    provider = "disqus"
+    provider = "utterances"
 
 [menu]
 [[menu.header]]
@@ -52,9 +57,10 @@ paginate = 6
 [[menu.header]]
   name = "Articles"
   url = "/articles/"
+
 [[menu.footer]]
-    name = "RSS"
-    url = "/index.xml"
+    name = "©2021 Jason.Fang · Powered by Hugo."
+    url = "https://gohugo.io/"
 
 [markup]
 [markup.highlight]

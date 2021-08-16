@@ -12,13 +12,13 @@ title = "Linux FD操作问题"
 
 主要总结一之前工作中遇到的问题，在对一个fifo进行操作的时候出现无法open的情况，但是fifo文件是一直存在的，百思不得解，
 后面还是同事的提醒，才想起看到man手册中的说明，先上代码吧，自己写的一个小程序测试：
-![Demo 代码](/images/open_demo_codes.png)
+![Demo 代码](images/open_demo_codes.png)
 
 注意这里的模式是只写模式加非阻塞模式,运行结果是：
-![运行结果](/images/open_error.png)
+![运行结果](images/open_error.png)
 
 MAN手册上的说明：
-![MAN解释](/images/man_open_flag.png)
+![MAN解释](images/man_open_flag.png)
 
 ## 总结：
 使用O_RDONLY或O_WRONLY设置打开FIFO时:
