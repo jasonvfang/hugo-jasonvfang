@@ -1,6 +1,6 @@
 baseurl = "https://blog.haoyi.dev"
 languageCode = "en-us"
-title = "CODER.HAOYI"
+title = "Blog.HAOYI - A coder's blog"
 theme = "hugo-tania"
 paginate = 6
 
