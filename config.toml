@@ -1,10 +1,67 @@
-baseurl = "https://blog.haoyi.dev/"
-languageCode = "zh-CN"
-title = "Blog.Haoyi"
-googleAnalytics = ""
+baseurl = "https://blog.haoyi.dev"
+languageCode = "en-us"
+title = "CODER.HAOYI"
+theme = "hugo-tania"
+paginate = 6
 
-#paginate = 10
-theme = "ananke"
+#disqusShortname = "https-hugo-tania-netlify-app"
 
-[permalinks]
-    post = "/:year/:month/:day/:slug"
+[params]
+  # Emoji will show before the blog title on site navbar.
+  titleEmoji  = "😎"
+
+  # Logo will show before the blog title on site navbar.
+  titleLogo = ""
+
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes = true
+  siteName = "Blog.HaoYI"
+  siteDesc = "A coder's blog"
+  author = "Jason.Fang"
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow = 10
+
+  # Show your social information with icon on index bio with `_index.md` content.
+  [params.socialOptions]
+    dev-to = "jasonvfang"
+    email = "jasonvfang@gmail.com"
+    facebook = "jasonvfang"
+    github = "jasonvfang@126.com"
+    instagram = "jasonvfang"
+    linkedin = ""
+    medium = ""
+    stack-overflow = "jasonvfang"
+    steam = ""
+    telegram = "jasonvfang"
+    twitter = "jasonvfang"
+    twitch = ""
+    whatsapp = ""
+  
+  # Comments settigns
+  [params.comments]
+    enabled = true
+    provider = "disqus"
+
+[menu]
+[[menu.header]]
+  name = "About"
+  url = "/about/"
+[[menu.header]]
+  name = "Articles"
+  url = "/articles/"
+[[menu.footer]]
+    name = "RSS"
+    url = "/index.xml"
+
+[markup]
+[markup.highlight]
+  noClasses = false
+  lineNos = true
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

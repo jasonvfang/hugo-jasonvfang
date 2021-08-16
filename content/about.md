@@ -5,7 +5,7 @@ menu = "main"
 disable_comments = true
 +++
 
-Jobs: Senior Software Engineer 
+Jobs: Software Engineer 
 
 Mainly concentrate on Linux/Embed and IOT.
 But also great passion on researching other skills(Server end developing & Web etc).
